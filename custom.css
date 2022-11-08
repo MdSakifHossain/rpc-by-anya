@@ -1,0 +1,68 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:cbn;
+transition:150ms;
+}
+
+@font-face {
+font-family:cbn;/*Give it any name u desire*/
+src: url(cbn.ttf);
+}
+
+body {
+
+}
+
+.cont {
+padding-left:1.5vw;
+padding-right:1.5vw;
+}
+
+.greet-section {
+height:10vh;
+width:100vw;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.actual-game-section {
+height:30vh;
+width:100vw;
+padding-left:10vw;
+padding-right:10vw;
+display:flex;
+justify-content:flex-end;
+flex-direction:column;
+}
+
+.actual-game-section .user-box,
+.actual-game-section .computer-box {
+display:flex;
+justify-content:space-between;
+}
+
+.result-section {
+height:30vh;
+width:100vw;
+display:flex;
+justify-content:center;
+flex-direction:column;
+}
+
+.result-section .result-box {
+display:flex;
+justify-content:space-between;
+padding:1rem 10vw;
+}
+
+.butt-section {
+width:100vw;
+height:10vh;
+display:flex;
+align-items:center;
+justify-content:space-around;
+}
+
